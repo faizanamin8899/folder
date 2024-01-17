@@ -1,0 +1,103 @@
+  *body{
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  *{
+    background-color: rgb(180, 151, 20);
+  }
+  
+  .topnav {
+  background-color: #333;
+  overflow: hidden;
+  display: inline;
+  text-decoration-line: none;
+  
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: #1d0109;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 25px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: rgb(49, 190, 155);
+color: rgb(0, 4, 219)
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color: #04AA6D;
+color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+float: right;
+}
+@import url("https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap");
+
+svg {
+	font-family: "Rouge Script", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 3s infinite alternate;
+	stroke-width: 2;
+	stroke: #3977C4;
+	font-size: 100px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(96,50,104,0); stroke: rgb(22, 43, 70);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(96,50,104,0); stroke: rgba(57,119,196,1); }
+	80%  {fill: rgba(96,50,104,0); stroke: rgba(57,119,196,1); stroke-width: 3; }
+	100% {
+		fill: rgba(96,50,104,1); stroke: rgba(57,119,196,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+.wrapper {background-color: #FFFFFF};
+
+/* .wrapper {background-color: #FFFFFF} */
+.box{
+    
+	
+  width: 400px;
+  height: 300px;
+  border-radius: 100px / 85px; 
+border: 2px solid #800000;
+
+}
+
+
+.w{
+	font-family: sans-serif;
+	font-weight: 800;
+	text-decoration-line: underline;
+	text-decoration-color: navy;
+}
+
+.box :hover{
+	color: brown;
+}
+.mi :hover{
+	color: rgb(144, 40, 214);
+	}
+.ui :hover{
+	color: #800000;
+}
+.drop{
+	font-size: x-large;
+	font-style: oblique;
+}
